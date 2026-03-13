@@ -1,0 +1,27 @@
+# OS & IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Git
+.git/
+.gitignore
+
+# Environments & Caches
+_pycache_/
+*.py[cod]
+.pytest_cache/
+venv/
+env/
+.venv/
+
+# Data & Models (Pulled from S3 at runtime)
+*.csv
+*.parquet
+*.pkl
+*.joblib
+models/*.pkl
+
+# Secrets
+.env
